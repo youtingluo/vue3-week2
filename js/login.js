@@ -6,7 +6,6 @@ function login(event) {
   event.preventDefault();
   // 以下為示範程式碼
   const url = 'https://vue3-course-api.hexschool.io';
-  const path = 'youting';
   const user = {
     username: username.value,
     password: password.value,
